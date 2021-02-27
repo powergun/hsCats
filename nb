@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+docker run --rm -p 8888:8888 -v $(pwd)/notebooks:/home/jovyan/notebooks --name ihaskell_notebook crosscompass/ihaskell-notebook:latest jupyter notebook notebooks
