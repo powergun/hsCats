@@ -12,6 +12,8 @@ another attempt.
 
 notebooks: 
 
+notes taken from _Category Theory for Programmers_ book;
+
 jupyter notebooks with concepts and demo implementations; execute `nb`
 to launch ihaskell docker container.
 
