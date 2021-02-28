@@ -2,6 +2,6 @@
 
 set -euo pipefail
 
-./py/.venv/bin/jupyter notebook ./notebooks
+./py/.venv/bin/jupyter notebook --port 8999 ./notebooks
 
 
