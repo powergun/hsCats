@@ -9,6 +9,8 @@ python = "^3.8"
 pylint = "^2.7.1"
 yapf = "^0.30.0"
 mypy = "^0.812"
+jupyter = "^1.0.0"
+matplotlib = "^3.3.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
