@@ -203,6 +203,21 @@ version = "0.2.0"
 
 [[package]]
 category = "main"
+description = "IPython magics for generating figures with TikZ"
+name = "ipython-tikzmagic"
+optional = false
+python-versions = "*"
+version = "0.1.1"
+
+[package.dependencies]
+ipython = "*"
+
+[package.source]
+reference = "499bc199f6f028a62b8598dc5a7c5b6e71d77d83"
+type = "git"
+url = "https://github.com/mkrphys/ipython-tikzmagic.git"
+[[package]]
+category = "main"
 description = "IPython HTML widgets for Jupyter"
 name = "ipywidgets"
 optional = false
@@ -667,7 +682,7 @@ wcwidth = "*"
 [[package]]
 category = "main"
 description = "Run a subprocess in a pseudo terminal"
-marker = "sys_platform != \"win32\" or os_name != \"nt\" or python_version >= \"3.3\" and sys_platform != \"win32\""
+marker = "python_version >= \"3.3\" and sys_platform != \"win32\" or sys_platform != \"win32\" or os_name != \"nt\" or python_version >= \"3.3\" and sys_platform != \"win32\" and (python_version >= \"3.3\" and sys_platform != \"win32\" or sys_platform != \"win32\")"
 name = "ptyprocess"
 optional = false
 python-versions = "*"
@@ -954,7 +969,7 @@ python-versions = "*"
 version = "0.30.0"
 
 [metadata]
-content-hash = "b1b99f9d8f5d9546e11d5de023a96292a45978d95a85759fafe489ab0734559d"
+content-hash = "80d63696b6edf49b74ed36718cf761613814b808dcb54e1685c254cdc0b892c4"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -1077,6 +1092,7 @@ ipython-genutils = [
     {file = "ipython_genutils-0.2.0-py2.py3-none-any.whl", hash = "sha256:72dd37233799e619666c9f639a9da83c34013a73e8bbc79a7a6348d93c61fab8"},
     {file = "ipython_genutils-0.2.0.tar.gz", hash = "sha256:eb2e116e75ecef9d4d228fdc66af54269afa26ab4463042e33785b887c628ba8"},
 ]
+ipython-tikzmagic = []
 ipywidgets = [
     {file = "ipywidgets-7.6.3-py2.py3-none-any.whl", hash = "sha256:e6513cfdaf5878de30f32d57f6dc2474da395a2a2991b94d487406c0ab7f55ca"},
     {file = "ipywidgets-7.6.3.tar.gz", hash = "sha256:9f1a43e620530f9e570e4a493677d25f08310118d315b00e25a18f12913c41f0"},

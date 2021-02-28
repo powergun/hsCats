@@ -11,6 +11,7 @@ yapf = "^0.30.0"
 mypy = "^0.812"
 jupyter = "^1.0.0"
 matplotlib = "^3.3.4"
+ipython-tikzmagic = {git = "https://github.com/mkrphys/ipython-tikzmagic.git"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

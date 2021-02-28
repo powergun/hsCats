@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+./py/.venv/bin/jupyter notebook ./notebooks
+
+

@@ -29,3 +29,10 @@ py:
 
 python source code; use poetry
 
+this subproject has two purposes:
+
+1) to implement the CAT concepts in python 
+2) to provide visualization in jupyter notebook, since ihaskell does not
+
+read [py/README.md](py/README.md) for my notes on visualization
+
